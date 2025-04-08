@@ -3,14 +3,16 @@
   "version": "0.0.1",
   "type": "commonjs",
   "devDependencies": {
-    "ts-node": "10.9.2",
     "@types/node": "^22.14.0",
+    "ts-node": "10.9.2",
     "typescript": "5.8.3"
   },
   "dependencies": {
-    "typeorm": "0.3.22",
+    "dotenv": "^16.4.7",
+    "pg": "^8.14.1",
     "reflect-metadata": "^0.2.2",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "typeorm": "0.3.22"
   },
   "scripts": {
     "start": "ts-node src/index.ts",
